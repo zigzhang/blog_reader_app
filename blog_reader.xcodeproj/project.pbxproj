@@ -22,6 +22,7 @@
 		8F3ED2B817FF9CF600A521E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3ED29717FF9CF600A521E8 /* UIKit.framework */; };
 		8F3ED2C017FF9CF600A521E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F3ED2BE17FF9CF600A521E8 /* InfoPlist.strings */; };
 		8F3ED2C217FF9CF600A521E8 /* blog_readerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3ED2C117FF9CF600A521E8 /* blog_readerTests.m */; };
+		8F3ED32418037DCE00A521E8 /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3ED32318037DCE00A521E8 /* BlogPost.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		8F3ED2BD17FF9CF600A521E8 /* blog_readerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "blog_readerTests-Info.plist"; sourceTree = "<group>"; };
 		8F3ED2BF17FF9CF600A521E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F3ED2C117FF9CF600A521E8 /* blog_readerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blog_readerTests.m; sourceTree = "<group>"; };
+		8F3ED32218037DCE00A521E8 /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPost.h; sourceTree = "<group>"; };
+		8F3ED32318037DCE00A521E8 /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPost.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				8F3ED2AC17FF9CF600A521E8 /* DetailViewController.m */,
 				8F3ED2AE17FF9CF600A521E8 /* Images.xcassets */,
 				8F3ED29A17FF9CF600A521E8 /* Supporting Files */,
+				8F3ED32218037DCE00A521E8 /* BlogPost.h */,
+				8F3ED32318037DCE00A521E8 /* BlogPost.m */,
 			);
 			path = blog_reader;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 			files = (
 				8F3ED2A417FF9CF600A521E8 /* AppDelegate.m in Sources */,
 				8F3ED2AA17FF9CF600A521E8 /* MasterViewController.m in Sources */,
+				8F3ED32418037DCE00A521E8 /* BlogPost.m in Sources */,
 				8F3ED2A017FF9CF600A521E8 /* main.m in Sources */,
 				8F3ED2AD17FF9CF600A521E8 /* DetailViewController.m in Sources */,
 			);
@@ -466,6 +472,7 @@
 				8F3ED2C717FF9CF600A521E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F3ED2C817FF9CF600A521E8 /* Build configuration list for PBXNativeTarget "blog_readerTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +481,7 @@
 				8F3ED2CA17FF9CF600A521E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
